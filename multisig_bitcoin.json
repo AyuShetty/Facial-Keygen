@@ -1,0 +1,16 @@
+{
+  "platform": "bitcoin",
+  "type": "2-of-3",
+  "threshold": 2,
+  "participants": [
+    "121c87c5ecf2491e9f9544c7f488dd582bc",
+    "121c87c5ecf2491e9f9544c7f488dd582bc",
+    "121c87c5ecf2491e9f9544c7f488dd582bc"
+  ],
+  "created_at": "2025-08-24T15:15:52.735373",
+  "facial_profiles": [
+    "facial_wallet_652f74101f2a5321",
+    "facial_wallet_652f74101f2a5321",
+    "facial_wallet_652f74101f2a5321"
+  ]
+}
