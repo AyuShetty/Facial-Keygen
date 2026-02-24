@@ -1,8 +1,17 @@
+# Sensitive data - DO NOT COMMIT
+user_templates/
+secure_keys/
+logs/
+backups/
+
+# Old/backup files
+old_models_backup/
+
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
 env/
 venv/
@@ -17,44 +26,13 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-.git
-.mypy_cache
-.pytest_cache
-.hypothesis
-
-# Virtual Environment
-venv/
-.venv/
-env/
-.env/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# Project Specific
-biometric_templates/*.json
-wallets/*.json
-live_captures/*.jpg
-captures/*.jpg
-*.log
-temp_*
-test_*
-
-# Sensitive Data
-*.key
-*.pem
-private_keys/
-secrets/
